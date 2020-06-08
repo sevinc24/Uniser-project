@@ -1,0 +1,787 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/*---------for-different-background-color---------*/
+.different-bg {
+  padding-top: 20px !important;
+  background: #333333;
+}
+
+/*----------------Navigation-start----------------*/
+.cs_right_menu {
+  float: left;
+  width: 50px;
+  height: 100vh;
+  background-color: #0E0E0E;
+  position: fixed;
+  z-index: 999;
+}
+
+.cs_right_menu ul {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+}
+
+.cs_right_menu ul li {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  float: left;
+  width: 60px;
+  font-size: 12px;
+  height: 100px;
+}
+
+.cs_right_menu ul li a {
+  color: #fff;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  float: left;
+  margin-top: 37px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cs_right_menu ul li a:active {
+  color: #3D9BCC;
+}
+
+/*-----------------Navigation-end-----------------*/
+/*---------------owl carousel-start---------------*/
+.my-owl-carousel .my-img {
+  position: relative !important;
+}
+
+.my-owl-carousel .my-img img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.my-owl-carousel .my-img .overlay {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  position: absolute;
+}
+
+.my-owl-carousel .my-img .contect-slider {
+  position: absolute;
+  top: 250px;
+  text-align: center;
+}
+
+.my-owl-carousel .my-img .contect-slider h2 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: "Montserrat", sans-serif;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.my-owl-carousel .my-img .contect-slider .line {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  width: 335px;
+  text-align: center;
+  display: inline-block;
+}
+
+.my-owl-carousel .my-img .contect-slider a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  width: 200px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000;
+  background: #fff;
+  border-radius: 35px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.my-owl-carousel .my-img .contect-slider a:hover {
+  background: transparent;
+  border-color: #198cf8;
+  color: #198cf8;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  font-size: 13px;
+}
+
+.my-owl-carousel .owl-nav {
+  display: none !important;
+}
+
+.my-owl-carousel .owl-dot {
+  display: none !important;
+}
+
+/*-----------------owl carousel-end---------------*/
+/*--------------Service-part-start----------------*/
+.service_price {
+  background: url("../image/background-img.png");
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.service_price .prices {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.service_price .prices .service-info .one img {
+  width: 81.25px;
+  height: 81.25px;
+}
+
+.service_price .prices .service-info .two h3 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.service_price .prices .service-info .two h3 span:hover {
+  color: #198cf8;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.service_price .prices .service-info .three p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.service_price .prices .different-effect {
+  -webkit-box-shadow: 2px -2px 33px -8px #fff;
+          box-shadow: 2px -2px 33px -8px #fff;
+  padding-top: 20px !important;
+  z-index: 1;
+}
+
+/*---------------Service-part-end-----------------*/
+/*---------------Courses-part-start---------------*/
+.courses-price {
+  background: url("../image/background-img.png");
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.courses-price .left {
+  padding: 50px;
+}
+
+.courses-price .left .first-part {
+  margin-bottom: 100px;
+}
+
+.courses-price .left .first-part p b {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.courses-price .left .first-part p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.courses-price .left .first-part ul {
+  padding: 0;
+}
+
+.courses-price .left .first-part ul li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.courses-price .left .second-part p b {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.courses-price .left .second-part p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.courses-price .left .second-part ul {
+  padding: 0;
+}
+
+.courses-price .left .second-part ul li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.courses-price .center {
+  padding: 150px 50px 50px 50px;
+}
+
+.courses-price .center .center-info p b {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.courses-price .center .center-info p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.courses-price .center .center-info ul {
+  padding: 0;
+}
+
+.courses-price .center .center-info ul li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.courses-price .right {
+  padding: 50px;
+}
+
+.courses-price .right .right-info p b {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.courses-price .right .right-info p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+}
+
+.courses-price .right .right-info ul {
+  padding: 0;
+}
+
+.courses-price .right .right-info ul li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+
+/*----------------Courses-part-end----------------*/
+/*----------------Project-part-start--------------*/
+.project_price {
+  background: url("../image/background-img.png");
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.project_price .project-info {
+  padding-top: 50px;
+}
+
+.project_price .project-info .change {
+  margin-top: 40px;
+}
+
+.project_price .project-info .two h3 span {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.project_price .project-info .two h3 span:hover {
+  color: #198cf8;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.project_price .project-info .three {
+  padding-top: 20px;
+}
+
+.project_price .project-info .three p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+}
+
+/*-----------------Project-part-end---------------*/
+/*-----------------Location-start-----------------*/
+.location-price {
+  background: url("../image/background-img.png");
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.location-price .location-info div h2 {
+  padding-top: 200px;
+}
+
+.location-price .location-info div h2 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 59px;
+  color: #fff;
+}
+
+.location-price .location-info div iframe {
+  padding: 50px 0 50px 50px;
+}
+
+/*-------------------Location-end-----------------*/
+/*------------------Contact-us-start--------------*/
+.contact-us-price {
+  background: url("../image/background-img.png");
+  width: 100%;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-us-price .left-part {
+  background: #333333;
+  padding: 100px 0 100px 150px;
+}
+
+.contact-us-price .left-part .header-word {
+  margin-bottom: 100px;
+}
+
+.contact-us-price .left-part .header-word h3 span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #fff;
+}
+
+.contact-us-price .left-part .header-word p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+}
+
+.contact-us-price .left-part .icon {
+  width: 17px;
+  height: 17px;
+  color: #198cf8;
+}
+
+.contact-us-price .left-part .info {
+  padding: 0;
+}
+
+.contact-us-price .left-part .info p span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.contact-us-price .right-part {
+  padding: 70px;
+}
+
+.contact-us-price .right-part .Contactform .form-group label {
+  display: none;
+}
+
+.contact-us-price .right-part .Contactform .form-group .form-control {
+  outline: 0 none;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent !important;
+  border: 0;
+  border-radius: 0;
+  border-color: #fff;
+  border-style: solid;
+  border-bottom-width: 2px;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-transform: none;
+  margin-top: 30px;
+}
+
+.contact-us-price .right-part .Contactform .form-group .form-control:focus::-webkit-input-placeholder {
+  color: transparent;
+  border-color: transparent;
+}
+
+.contact-us-price .right-part .Contactform .form-group .form-control:focus:-ms-input-placeholder {
+  color: transparent;
+  border-color: transparent;
+}
+
+.contact-us-price .right-part .Contactform .form-group .form-control:focus::-ms-input-placeholder {
+  color: transparent;
+  border-color: transparent;
+}
+
+.contact-us-price .right-part .Contactform .form-group .form-control:focus::placeholder {
+  color: transparent;
+  border-color: transparent;
+}
+
+.contact-us-price .right-part .Contactform .buttonsend a button {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #198cf8;
+  height: 50px;
+  width: 100%;
+  margin: 30px 0px 40px 0px;
+  margin-left: 0 !important;
+}
+
+.contact-us-price .right-part .Contactform .buttonsend a button:hover {
+  background-color: transparent;
+  border-color: #198cf8;
+  color: #198cf8;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+/*-------------------Contact-us-end---------------*/
+/*-----------------Responsive-style-start-----------------------*/
+@media only screen and (max-width: 568px) {
+  .my-owl-carousel .my-img .contect-slider {
+    top: 50px;
+  }
+  .my-owl-carousel .my-img .contect-slider h2 span {
+    font-size: 20px;
+  }
+  .my-owl-carousel .my-img .contect-slider .line {
+    width: 184px;
+  }
+  .my-owl-carousel .my-img .contect-slider a {
+    width: 130px;
+    line-height: 23px;
+  }
+  .courses-price .left {
+    text-align: center;
+  }
+  .courses-price .left .first-part ul li {
+    font-size: 13px;
+  }
+  .courses-price .left .second-part ul li {
+    font-size: 13px;
+  }
+  .courses-price .center {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .courses-price .center .center-info ul li {
+    font-size: 13px;
+  }
+  .courses-price .right {
+    text-align: center;
+  }
+  .courses-price .right .right-info ul li {
+    font-size: 13px;
+  }
+  .project_price .project-info .three {
+    padding: 10px 40px 40px 40px;
+  }
+  .project_price .project-info .three p span {
+    font-size: 12px;
+  }
+  .location-price .location-info {
+    text-align: center;
+  }
+  .location-price .location-info div h2 {
+    padding-top: 50px;
+  }
+  .location-price .location-info div h2 span {
+    font-size: 28px;
+  }
+  .contact-us-price .left-part {
+    padding: 100px 0 100px 100px;
+  }
+  .contact-us-price .left-part .header-word {
+    margin-bottom: 40px;
+  }
+  .contact-us-price .left-part .header-word h3 span {
+    font-size: 34px;
+  }
+  .contact-us-price .left-part .header-word p span {
+    font-size: 20px;
+  }
+  .contact-us-price .left-part .info p span {
+    font-size: 13px;
+  }
+  .contact-us-price .right-part {
+    padding: 50px 100px;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+  .my-owl-carousel .my-img .contect-slider {
+    top: 50px;
+  }
+  .my-owl-carousel .my-img .contect-slider h2 span {
+    font-size: 22px;
+  }
+  .my-owl-carousel .my-img .contect-slider .line {
+    width: 184px;
+  }
+  .my-owl-carousel .my-img .contect-slider a {
+    width: 130px;
+    line-height: 23px;
+  }
+  .courses-price .left {
+    text-align: center;
+  }
+  .courses-price .left .first-part ul li {
+    font-size: 14px;
+  }
+  .courses-price .left .second-part ul li {
+    font-size: 14px;
+  }
+  .courses-price .center {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .courses-price .center .center-info ul li {
+    font-size: 14px;
+  }
+  .courses-price .right {
+    text-align: center;
+  }
+  .courses-price .right .right-info ul li {
+    font-size: 14px;
+  }
+  .project_price .project-info .three {
+    padding: 10px 40px 40px 40px;
+  }
+  .project_price .project-info .three p span {
+    font-size: 14px;
+  }
+  .location-price .location-info {
+    text-align: center;
+  }
+  .location-price .location-info div h2 {
+    padding-top: 50px;
+  }
+  .location-price .location-info div h2 span {
+    font-size: 30px;
+  }
+  .contact-us-price .left-part {
+    padding: 100px 0 100px 100px;
+  }
+  .contact-us-price .left-part .header-word {
+    margin-bottom: 40px;
+  }
+  .contact-us-price .left-part .header-word h3 span {
+    font-size: 35px;
+  }
+  .contact-us-price .left-part .header-word p span {
+    font-size: 22px;
+  }
+  .contact-us-price .left-part .info p span {
+    font-size: 14px;
+  }
+  .contact-us-price .right-part {
+    padding: 50px 100px;
+  }
+}
+
+@media only screen and (min-width: 679px) and (max-width: 992px) {
+  .my-owl-carousel .my-img .contect-slider {
+    top: 120px;
+  }
+  .my-owl-carousel .my-img .contect-slider h2 span {
+    font-size: 28px;
+  }
+  .my-owl-carousel .my-img .contect-slider .line {
+    width: 200px;
+  }
+  .my-owl-carousel .my-img .contect-slider a {
+    width: 150px;
+    line-height: 27px;
+  }
+  .courses-price .left {
+    text-align: left;
+  }
+  .courses-price .left .first-part ul li {
+    font-size: 14px;
+  }
+  .courses-price .left .second-part ul li {
+    font-size: 14px;
+  }
+  .courses-price .center {
+    text-align: left;
+    padding-top: 130px;
+  }
+  .courses-price .center .center-info ul li {
+    font-size: 14px;
+  }
+  .courses-price .right {
+    text-align: left;
+  }
+  .courses-price .right .right-info ul li {
+    font-size: 14px;
+  }
+  .project_price .project-info .three {
+    padding: 10px 40px 40px 40px;
+  }
+  .project_price .project-info .three p span {
+    font-size: 14px;
+  }
+  .location-price .location-info {
+    text-align: center;
+  }
+  .location-price .location-info div h2 {
+    padding-top: 200px;
+    padding-left: 30px;
+  }
+  .location-price .location-info div h2 span {
+    font-size: 32px;
+  }
+  .contact-us-price .left-part {
+    padding: 100px 0 100px 100px;
+  }
+  .contact-us-price .left-part .header-word {
+    margin-bottom: 40px;
+  }
+  .contact-us-price .left-part .header-word h3 span {
+    font-size: 35px;
+  }
+  .contact-us-price .left-part .header-word p span {
+    font-size: 22px;
+  }
+  .contact-us-price .left-part .info p span {
+    font-size: 14px;
+  }
+  .contact-us-price .right-part {
+    padding: 50px 100px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .location-price .location-info {
+    text-align: center;
+    padding: 0;
+  }
+  .location-price .location-info div h2 {
+    padding-left: 40px;
+  }
+  .location-price .location-info div h2 span {
+    font-size: 36px;
+  }
+  .contact-us-price .left-part {
+    padding: 100px 0 100px 90px;
+  }
+}
+
+/*-------------------Responsive-style-end-----------------------*/
+/*# sourceMappingURL=style.css.map */

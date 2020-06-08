@@ -1,0 +1,122 @@
+@import 'particals/colors-page';
+@import 'particals/font_page';
+
+@mixin slider-center-word {
+font-family: $font-family;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+letter-spacing: 0.1em;
+color: $font-family;
+color: $color-white;
+text-shadow: 0px 4px 4px $color-text-shadow, 0px 4px 4px $color-text-shadow;
+}
+@mixin slider-center-line {
+    border: 2px solid $color-white;
+    border-radius: 12px;
+    width: 335px;
+    text-align: center;
+    display: inline-block;
+}
+@mixin slider-center-btn {
+    font-family:$font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    width: 200px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: $color-black;
+    background: $color-white;
+    border-radius: 35px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+@mixin bg-img {
+    background: url('../image/background-img.png');
+    width: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@mixin icons {
+    width: 81.25px;
+    height: 81.25px;
+}
+@mixin service-h3{
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: $color-white;
+}
+@mixin service-p {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-white;
+
+}
+@mixin project-h3 {
+    font-family:$font-family;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color-white;
+}
+@mixin project-p {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: $color-white;
+}
+@mixin contact-us-icon {
+    width: 17px;
+    height: 17px;
+    color: $color-contact-us-icon;
+}
+@mixin contact-us-p {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: $color-white;
+}
+@mixin courses-p-b {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: $color-white;
+}
+@mixin  courses-p-span {
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+   color: $color-white;
+}
+@mixin  courses-li {
+    font-family: $font-family;
+    font-style: normal;
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: $color-white;
+}
